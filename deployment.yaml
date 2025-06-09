@@ -15,5 +15,8 @@ spec:
       containers:
         - name: springboot-app
           image: muhammede/springboot-app:latest
+          imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8080
+            - containerPort: 8090
+
+      restartPolicy: OnFailure
