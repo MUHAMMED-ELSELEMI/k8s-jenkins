@@ -17,6 +17,6 @@ spec:
           image: muhammede/springboot-app:latest
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8090
+            - containerPort: 8080
 
       restartPolicy: Always
